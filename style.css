@@ -87,15 +87,14 @@ nav ul li a{
 .outer-speaker-container{
     background-color: white ;
     padding: 25px 0 75px;
-    height:700px;
+    
 }
 
 .speaker-container{
     width: 80%;
-    
     margin: 0 auto;
     background-color: white;
-    height:400px;
+    
 }
 
 .speaker-title{
@@ -119,6 +118,7 @@ nav ul li a{
 .individual-card{
     border: 1px solid #e5e7ebFF;
     border-radius: 12px;
+    overflow: hidden;
 }
 .stack{
     color: #2563ebFF;
@@ -147,6 +147,9 @@ nav ul li a{
 .speaker-info {
     padding: 24px;
 }
-.image{
-    
+.image img{
+    height: 350px; 
+    width: 100%;
+    object-fit: cover;
+    display: block;
 }
