@@ -85,10 +85,68 @@ nav ul li a{
 }
 
 .outer-speaker-container{
-    background-color: aqua;
+    background-color: white ;
+    padding: 25px 0 75px;
+    height:700px;
 }
 
 .speaker-container{
-    margin: 5px 10px;
-    background-color: bisque;
+    width: 80%;
+    
+    margin: 0 auto;
+    background-color: white;
+    height:400px;
+}
+
+.speaker-title{
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-image-speaker{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
+
+}
+.individual-card{
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+}
+.stack{
+    color: #2563ebFF;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 8px;
+
+}
+.speaker-name{
+    color: #0d1b2aFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: none;
+    margin-top: 8px;
+}
+
+.designation{
+    color: #575757FF;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    margin-top: 8px;
+}
+
+.speaker-info {
+    padding: 24px;
+}
+.image{
+    
 }
