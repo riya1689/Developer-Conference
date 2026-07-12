@@ -1,20 +1,17 @@
 *{
     margin: 0;
+    padding: 0;
+    
+}
+body{
     font-family: 'Inter';
     font-style: normal;
-    
 }
-
-header{
-    display: flex;
-    
-}
-
 nav{
     display: flex;  
     justify-content: space-between;
     width: 80%;
-    margin: 10px 115.5px;
+    margin: 10px auto;
     align-items: center;
 }
 
@@ -33,6 +30,11 @@ nav ul li a{
     color: gray;
 }
 
+.logo{
+    padding: 8px 0;
+    
+}
+
 .register-btn{
     background-color:#1d4ed8FF;
     color: white;
@@ -45,7 +47,48 @@ nav ul li a{
     font-weight: 700;
 }
 
-.banner-img{
-    width: 100%;
-    
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+
+}
+
+
+.container{
+    max-width: 1200px;
+    padding: 136px 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.container p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 260;
+    margin-bottom: 320px;
+
+}
+
+.outer-speaker-container{
+    background-color: aqua;
+}
+
+.speaker-container{
+    margin: 5px 10px;
+    background-color: bisque;
 }
