@@ -100,6 +100,7 @@ nav ul li a{
 .speaker-title{
     text-align: center;
     background-color: white;
+    width: auto;
     height: 50px;
     padding: 20px;
     display: flex;
@@ -152,4 +153,239 @@ nav ul li a{
     width: 100%;
     object-fit: cover;
     display: block;
+}
+
+.secure-card-container{
+    width: 80%;
+    margin: 80px auto;
+}
+.secure-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.secure-title h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.secure-title p{
+    color: #575757FF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.secure-card-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    align-items: center;
+}
+
+.secure-card-style{
+    border: 1px solid #e5e7ebFF;
+    border-radius: 12px;
+    padding: 30px;
+    overflow: hidden;
+    background: white;
+    display: flex;
+    flex-direction: column;
+
+}
+#team-card{
+    background: #f8f9fbFF;
+    border-color: #e5e7ebFF;
+}
+
+.dark-secure-card{
+    border: 1px solid #0d1b2aFF;
+    border-radius: 12px;
+    padding: 30px;
+    overflow: hidden;
+    background: #0d1b2aFF;
+    border-color: #0d1b2aFF;
+    display: flex;
+    flex-direction: column;
+}
+
+#dark-card-type{
+    margin-bottom: 8px;
+    color: #93c5fdFF;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#dark-card-price{
+    color: white;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+#dark-person-access{
+    color: #ffffff80;
+    font-size: 13px;
+    font-weight: 600;
+}
+.secure-card-style .card-type{
+    margin-bottom: 8px;
+    color: #888888FF;
+    font-size: 13px;
+    font-weight: 600;
+}
+.secure-card-style .card-price{
+    color: #0d1b2aFF;
+    font-size: 44px;
+    font-weight: 700;
+
+}
+.person-access{
+    color: #888888FF;
+    font-size: 13px;
+    font-weight: 600;
+}
+.secure-card-style hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #e5e7ebFF;
+    background-color: #e5e7ebFF;
+    height: 1px;
+    border: none;
+}
+
+#dark-secure-card-hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff1A;
+    background-color: #ffffff1A;
+    height: 1px;
+    border: none;
+}
+
+.dark-feature{
+
+}
+
+
+.feature{
+    margin-bottom: 20px;
+    flex-grow: 1;
+    padding-left: 18px;
+}
+
+
+.feature li{
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.feature li::marker{
+    color: #2563ebFF;
+    font-size: 14px;
+}
+
+.secure-btn-sz{
+    height: 45px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+     
+}
+
+#pro-btn{
+    background-color: #2563ebFF;
+    color: #ffffff;
+    border: none;
+    
+   
+}
+
+#standard-btn{
+    color: #2563ebFF;
+    border-color: #2563ebFF;
+    background-color:white ;
+    
+}
+
+#team-btn{
+    color: #0d1b2aFF;
+}
+
+#standard li{
+    color: #333333FF;
+}
+#pro li{
+    color: white;
+}
+#team li{
+    color: #333333FF;
+}
+
+.ai-faq-section{
+    width: 80%;
+    margin: 80px auto;
+}
+
+.faq-hr{
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+.faq-list{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.faq-item{
+    background-color: #f8f9fb ;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.faq-item h3 {
+    color: #0d1b2a;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.faq-item p {
+    color: #575757;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer{
+    background-color:#0d1b2aFF;
+    height: 200px;
+    padding: 60px 0 30px;
+     margin-top: 80px;
+}
+
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-divider{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff1A;
+    background-color: #ffffff1A;
+    height: 1px;
+    border: none;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff66;
+}
+.footer-right-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
